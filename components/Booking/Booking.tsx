@@ -14,8 +14,7 @@ export default function Booking() {
     <div className="p-5">
       <h2 className="text-[20px] font-semibold">Booking</h2>
       <div
-        style={{ height: "80vh" }}
-        className="border-[1px] border-gray-700 p-5 rounded-md"
+        className="border-[1px] border-gray-700 p-5 rounded-md h-[60vh] md:h-[80vh]"
       >
         <Autocomplete />
         <Cars />

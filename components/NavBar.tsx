@@ -10,7 +10,7 @@ export default function NavBar() {
 
         <ul className="flex items-center justify-between gap-9">
           <li className="hover:bg-slate-700 hover:cursor-pointer">Home</li>
-          <li className="hover:bg-slate-700 hover:cursor-pointer">Help</li>
+          <li className="hover:bg-slate-700 hover:cursor-pointer hidden md:block">Help</li>
           <li className="hover:bg-slate-700 hover:cursor-pointer">
             <a
               href="https://donate.stripe.com/test_dR64ki6zS1B342k4gj"
